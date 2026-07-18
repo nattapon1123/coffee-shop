@@ -1,4 +1,5 @@
 # ตอบคำถาม
+## ข้อ 1: เหตุใดจึงเลือกใช้ useReducer แทน useState ในการจัดการตะกร้าสินค้า
 
 ตะกร้าสินค้ามีหลาย action ได้แก่ ADD, REMOVE, INCREASE, DECREASE, CLEAR ถ้าใช้ useState ต้องเขียนฟังก์ชันแยกหลายตัว แต่ useReducer รวม logic ทั้งหมดไว้ใน Reducer Function เดียว ทำให้โค้ดอ่านง่ายและจัดการได้ดีกว่า
 
